@@ -1,0 +1,229 @@
+text{
+	color: #333333;
+    font-style:normal;
+    font-face:proportional;
+}
+screenTopbar text {
+    color: white;
+    padding: 1 2 1 2;
+}
+
+text.listTitle{
+	font-style:bold;
+	font-size:small;
+}
+screenTopbar {
+    font-style: bold;
+    bg-color: #000000;
+}
+screen{
+	bg-color:#ffffff;
+	padding:10 5 0 5;
+}
+desktop {
+    bg-color: #ffffff;
+}
+	
+textfield {
+	bg-color:#DEF9BD;
+	border:1;
+	border-color:#000000;
+}
+textfield:hover{
+	bg-color:#ffffff;
+	border:1;
+	border-color:	
+}
+checkbox{
+	bg-color:#ffffff;
+	border:1;
+	border-color:#000000;
+}
+checkbox:selected{
+	bg-color:#ffffff;
+	border:1;
+	border-color:#ff0000;
+	bg-image: url(checkbox.png);
+	bg-repeat:1 1;
+	bg-align:center;
+}
+screenBottombar {
+    bg-color: #336600;
+    border: 1 0 0 0;
+    border-color: #2a5004;
+    padding: 2 2 1 2;
+    bg-image:url(bottombg.png);
+    bg-repeat:0 1;
+}
+screenBottombar text {
+    color: white;
+    font-face:proportional;
+    font-size:small;
+}
+
+scrollpanecontainer{
+	padding:5 5 5 5;
+	bg-color:#ffffff;
+}
+scrollpane.containerStyle{
+	align:fill-center;
+	layout:inlinelayout(false,fill);
+	gap:0 5;
+}
+scrollpane.containertable{
+	align:fill-center;
+	layout:tablelayout;
+	gap:0 5;
+}	
+scrollbar{
+	bg-color:#666666;
+	padding: 1 0 0 2;
+	border: 0 1 1 0;
+	border-color: #485f5f;
+}
+
+scrollbarbar{
+	min-size: 3 3;
+	border: 1;
+	border-image: url(sbb.png) 1 1 1 1;
+	bg-color: #c2f495;
+}
+menuPopup {
+    bg-color: #E7FACA;
+    border: 1;
+    border-color: #E7FACA;
+    padding: 1;
+}
+menuItem {
+    padding: 2 10 2 10;
+    margin: 1 0 0 0;
+    bg-color:#ffffff;
+}
+menuItem text{
+	color:#336600;
+	font-size:small;
+}
+menuItem:hover {
+    bg-color:#70B405;
+    bg-image:url(menuitembg.png);
+    bg-repeat:0 1;
+}
+menuItem:hover text{
+	color:#ffffff;
+}
+list{
+	align:fill;
+}
+listItem{
+	margin:5 2 5 2;	
+	bg-color:#ffffff;
+	padding:5;
+	align:fill;
+	border:1;
+	border-color:#dddddd;
+}
+listItem.species{
+	font-style:normal;
+	font-face:proportional;
+	font-size:medium;
+}
+listItem text{
+	color:#333333;
+}
+listItem:hover{
+	bg-color:#4F850F;
+}
+listItem:hover text{
+	color:#ffffff;
+}
+popupBox {
+    border: 1;
+    border-color: #ffffff;
+    bg-color: #3c7601;
+    padding: 5;
+    grayed-color: #444447;
+}
+popupBox.progressPopup {
+	border:0;
+    bg-color:none;
+    padding: 5;
+    grayed-color: #ffffff;
+}
+popupBox text{
+	color:#ffffff;
+	font-size:small;
+}
+popupBox.progressPopup text{
+	color:#3c7601;
+	font-size:small;
+}
+textarea.listDesc{
+	color:#ff0000;
+}
+textarea.title{
+	padding:15 10 25 50;
+	bg-image:url(title.png);
+	min-size: 55 25;
+	bg-repeat:1 1;
+}
+textarea.title text{
+	color:#336600;
+	font-face:proportional;
+	font-size:large;
+}
+textarea.spptitle{
+	padding:15 10 20 50;
+	bg-image:url(title.png);
+	min-size: 55 25;
+	bg-repeat:1 1;
+}
+textarea.spptitle text{
+	color:#3c7601;
+	font-style:bold;
+	font-face:proportional;
+	font-size:small;
+}
+textarea.headings{
+	font-style:bold;
+	padding:5;
+	margin:10 0 0 0;
+}
+textarea.headings text{
+	font-size:small;
+	color:#3c7601;
+}
+textarea.infotxt{
+	font-style:normal;
+}
+textarea.infotxt text{
+	font-size:small;
+	color:#333333;	
+}
+textarea.listinfo text{
+	font-size:small;
+	font-face:proportional;
+}
+textarea.breadcrumb{
+	padding: 5 0 10 0;
+}
+textarea.breadcrumb text{
+	font-size:small;
+	font-face:proportional;
+	color:#336600;	
+}
+gauge{
+	min-size:3 3;
+	align:gridlayout(1, 1);
+	margin:10 0 0 0;
+	bg-color: #002020;
+	
+}
+gaugebar{
+	min-size:1 1;
+	border: 0;
+	bg-color: #B7F17E;
+}
+unpaintablewidget{
+	padding:10;
+	bg-color:#000000;
+}

@@ -1,0 +1,8 @@
+<popupBox class="progressPopup2">
+	<container style="layout:inlinelayout(false,fill);gap:10 5">
+		<scrollpane style="align:fill-center">
+			<textarea id="hlpMessage" class="helptext" styled="true" style="font-size:small;font-face:proportional"></textarea>
+		</scrollpane>
+	</container>
+	<popupBoxFirstMenuItem style="color:#ff0000" onAction="closeHelp">%OK%</popupBoxFirstMenuItem>
+</popupBox>

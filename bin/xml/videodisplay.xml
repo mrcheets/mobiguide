@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen shortcuts="right=addVolume|left=decVolume">
+	<_title>%VIDEO_CALL%</_title>
+	
+	<!-- <button shortcuts="right" onAction="addVolume" visible="true" style="layout:staticlayout;layout-data:sld(left, 0, 0)"></button>
+	<button shortcuts="left" onAction="decVolume" visible="true" style="layout:staticlayout;layout-data:sld(left, 0, 0)"></button> -->
+	<screenFirstMenu>
+		%MORE%
+		<menupopup>
+			<menuitem onAction="downloadVoice">%VOICE_DLOAD%</menuitem>
+			<menuitem onAction="play">%PLAY%</menuitem>
+			<menuitem onAction="stop">%STOP%</menuitem>
+			<menuItem onAction="help">%HELP%</menuItem>
+		</menupopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="back">
+		%BACK%
+	</screenSecondMenu>
+</screen>

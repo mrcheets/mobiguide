@@ -1,0 +1,9 @@
+<popupBox class="progressPopup" style="align:fill-center;layout:tablelayout">
+	<container style="align:fill-center;layout:tablelayout">
+		<textarea id="txtMessage" style="font-size:small;font-face:proportional"></textarea>
+		<break/>
+		<picture id="picLoader" style="margin:10 0 10 0" src="loader.gif"></picture>
+	</container>
+	<break/>
+	<popupBoxSecondMenuItem style="color:#ff0000" onAction="stopAction">%CANCEL%</popupBoxSecondMenuItem>
+</popupBox>

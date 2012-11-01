@@ -1,0 +1,22 @@
+<screenFirstMenu>
+	%MORE%
+	<menuPopup>
+		<menuItem onAction="prevSpp">
+			%PREV_SPP%
+		</menuItem>
+		<menuItem onAction="nextSpp">
+			%NEXT_SPP%
+		</menuItem>
+		<menuItem onAction="loadMain">
+			%BACK%
+		</menuItem>
+		<menuItem onAction="help">
+			%HELP%
+		</menuItem>
+		<!-- <menuItem onAction="search">
+			%SEARCH%
+		</menuItem> -->
+	</menuPopup>
+</screenFirstMenu>
+
+

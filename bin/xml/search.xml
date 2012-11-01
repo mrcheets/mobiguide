@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%LOGIN_TITLE%</_title>
+	
+	<scrollpane id="searchpane" style="layout:tablelayout">
+		<container><text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">%HOME%</text> <text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">&gt;</text> <text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">%SEARCH%</text></container><break/>
+		<container style="layout:gridlayout(2,1);padding:10">
+			<text style="font-size:small;font-face:proportional;color:#336600">%SEARCHLABEL%</text><textfield id="searchkey"  class="searchtext"></textfield>
+		</container>	
+		<list id="searchlist">
+			<listitem style="layout:tablelayout">
+				<text class="listTitle">How to search</text>
+				<break/>
+				<textarea class="listinfo">Insert a word in the text field and click search</textarea>
+			</listitem>
+		</list>
+	</scrollpane>
+	<screenFirstMenu >
+		%MORE%
+		<menupopup>
+			<menuItem onAction="search">%SEARCH%</menuItem>
+			<menuItem onAction="back">%BACK%</menuItem>
+			<menuItem onAction="help">%HELP%</menuItem>
+		</menupopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>

@@ -1,0 +1,9 @@
+<screenFirstMenu>
+	%MORE%
+	<menupopup>
+		<menuitem onAction="downloadVoice">%VOICE_DLOAD%</menuitem>
+		<menuitem onAction="play">%PLAY%</menuitem>
+		<menuitem onAction="stop">%STOP%</menuitem>
+		<menuItem onAction="help">%HELP%</menuItem>
+	</menupopup>
+</screenFirstMenu>

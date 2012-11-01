@@ -1,0 +1,16 @@
+<popupBox class="myPopUp" style="align:fill-center;layout:tablelayout">
+	<container>
+		<text>%RCPTNO%</text>
+	</container>
+	<break/>
+	<container id="cListHolder" style="layout:gridlayout(2,1)">
+		
+	</container>
+	<break/>
+	<container style="layout:inlinelayout(true, fill)">
+		%BOOLSAVE%
+		<checkBox selected="true" id="saveBox" style="min-size: 20 20" ></checkBox>
+	</container>
+	<popupBoxFirstMenuItem onAction="insertAddress">%SUBMIT%</popupBoxFirstMenuItem>
+	<popupBoxSecondMenuItem onAction="cancel">%CANCEL%</popupBoxSecondMenuItem>
+</popupBox>

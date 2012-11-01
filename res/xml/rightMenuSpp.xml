@@ -1,0 +1,32 @@
+<screenFirstMenu>
+	%MORE%
+	<menuPopup>
+		<menuItem onAction="geninfo">
+			%SPP_GENINFO%
+		</menuItem>
+		<menuItem onAction="identification">
+			%SPP_ID%
+		</menuItem>
+		<menuItem onAction="conservation">
+			%SPP_CONSERVATION%
+		</menuItem>
+		<menuItem onAction="gallery">
+			%SPP_GALLERY%
+		</menuItem>
+		<menuItem onAction="facts">
+			%SPP_INTERESTING%
+		</menuItem>
+		<menuItem onAction="call">
+			%SPP_CALL%
+		</menuItem>
+		<menuItem onAction="loadMain">
+			%BACK%
+		</menuItem>
+		<menuItem onAction="help">
+			%HELP%
+		</menuItem>
+		
+	</menuPopup>
+</screenFirstMenu>
+
+

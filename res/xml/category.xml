@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%CAT_TITLE%</_title>
+		<scrollpane showscrollbar="true" id="catScrollPane" style="align:fill-center;layout:inlinelayout(false,fill);gap:0 5">
+			<text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">%HOME%</text><break/>
+			<textArea class="title">%CAT_TITLE%</textArea><break/>	 
+			<list id="myList">
+			<_items>@{listData}</_items>
+			<_renderer>
+				<![CDATA[
+				<listItem class="even">
+					<_onAction>specieslist (@{CategoryId})</_onAction>
+					<container style="layout:tablelayout">
+					<text class="listTitle">@{CategoryTitle}</text>
+					<break/>					
+					<textarea enabled="false" style="font-size:small;font-face:proportional">@{CategoryDesc}</textarea>	
+					</container>			
+				</listItem>				
+				]]>			
+			</_renderer>
+			</list>
+		
+		</scrollpane>
+	<screenFirstMenu>
+		%MORE%
+		<menupopup>
+			<menuItem onAction="search">
+				%SEARCH%
+			</menuItem>
+			<menuItem onAction="help">
+				%HELP%
+			</menuItem>
+		</menupopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>

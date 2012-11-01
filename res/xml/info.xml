@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%INFO_TITLE%</_title>
+	<scrollpane style="layout:tablelayout">
+		<container>
+			<textArea class="spptitle" styled="true" style="span:2 1">%ABOUT%</textArea>
+		</container>
+		<break/>
+		<container class="solidscrollpane">
+			<textArea class="infotxt" styled="true" style="span:2 1">%INFO_MESSAGE%</textArea>
+		</container>
+		<break/>
+		<container style="margin:20 5 5 5; border: 1 0 0 0;border-color:#ffffff;padding 5">
+			<checkbox style="min-size:15 15;span:1 1;padding:5" id="hideInfo"></checkbox><text style="font-size:small;color:#3c7601;span:1 1;padding:5">%NO_SHOW%</text>
+		</container>
+	</scrollpane>
+	<screenFirstMenu onAction="categories">
+		%CONTINUE%
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>

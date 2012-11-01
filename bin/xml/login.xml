@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%LOGIN_TITLE%</_title>
+	<container style="layout:tablelayout;align:center;padding:10">
+		<text style="align:left;margin:5">
+			%LBLNAME% 
+		</text>
+		<text style="margin:5 0 5 0"> :</text>
+		<textfield style="min-size:90 3;margin:5;span:2 1">
+		</textfield>
+				
+		<break/>
+		<text style="align:left;margin:5">
+			%LBLPASS% 
+		</text>
+		<text style="margin:5 0 5 0"> :</text>
+		<textfield style="min-size:90 3;margin:5;span:2 1" constraints="password">
+		</textfield> 
+		<break/>
+		<list style="span: 1 1">
+			
+		</list>
+		
+	</container>
+	
+	<screenFirstMenu>
+		%MORE%
+		<menuPopup>
+			<menuItem onAction="register">
+				%REG%
+			</menuItem>
+			<menuItem onAction="getnewpass">
+				%GETPASS%
+			</menuItem>
+			<menuItem onAction="exitConfirm">
+				%EXIT%
+			</menuItem>
+		</menuPopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="signin">
+		%SIGNIN%
+	</screenSecondMenu>
+	
+</screen>

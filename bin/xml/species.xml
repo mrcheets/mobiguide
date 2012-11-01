@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%LOGIN_TITLE%</_title>
+	<screenFirstMenu>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>

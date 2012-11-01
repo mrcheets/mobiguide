@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%SPP_TITLE%</_title>
+	<scrollpane showscrollbar="true" id="catScrollPane" style="align:fill-center;layout:inlinelayout(false,fill);gap:0 5">
+		<container><text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">%HOME%</text> <text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">&gt;</text> <text style="font-size:small;font-face:proportional;color:#336600;padding: 5 0 10 0">%SPPLIST%</text></container>
+		<textArea class="title">%SPP_TITLE%</textArea>
+		<list id="myList">
+		<_items>@{sppListData}</_items>
+		<_renderer>
+			<![CDATA[
+			<listItem>
+				<_onAction>species (@{SpeciesId})</_onAction>
+				<_id>@{VectorId}</_id>
+				<container>
+					<picture>
+						<_image>@{SpeciesImage}</_image>
+					</picture>
+					<container style="layout:tablelayout;padding:5">
+						<text class="listTitle">@{SpeciesTitle}</text> 
+						<break/>
+						<text style="font-size:small;font-face:proportional;font-style:italic">@{SpeciesScientific}</text>
+						<break/>					
+						<textarea enabled="false" style="font-size:small;font-face:proportional">@{SpeciesSubTitle}</textarea>	
+					</container>	
+				</container>		
+			</listItem>				
+			]]>			
+		</_renderer>
+		</list>
+		
+		</scrollpane>
+	
+	<screenFirstMenu>
+		%MORE%
+		<menupopup>
+			<menuitem onAction="categories">%BACK%</menuitem>
+			<menuitem onAction="help">%HELP%</menuitem>
+		</menupopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>

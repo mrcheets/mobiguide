@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%APPNAME%</_title>
+		<container style="align:fill-center">
+			<picture src="splash2.png"/>
+		</container>
+	<screenfirstmenu>
+		%MORE%
+		<menupopup>
+			<menuitem onAction="search">%SEARCH%</menuitem>
+			<menuitem onAction="catList">%CATLIST%</menuitem>
+			<menuitem onAction="help">%HELP%</menuitem>
+		</menupopup>
+	</screenfirstmenu>
+	<screensecondmenu onAction="exitConfirm">
+		%EXIT%
+	</screensecondmenu>
+</screen>

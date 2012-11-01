@@ -1,0 +1,8 @@
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Raccudda Systems
+mobiguide-url: http://nguide.golavish.com
+MIDlet-Jar-URL: mobipedia.jar
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0
+MIDlet-1: MobiPedia,img/myIcon.png,com.raccuddasys.MobiGuide
+MIDlet-Name: MobiPedia

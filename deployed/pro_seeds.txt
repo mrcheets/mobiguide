@@ -1,0 +1,2 @@
+org.kalmeo.kuix.core.KuixMIDlet
+com.raccuddasys.MobiGuide

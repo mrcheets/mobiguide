@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+	<_title>%IMG_GALLERY%</_title>
+	<scrollpane showscrollbar="true" id="imgScrollPane" style="align:fill-center;layout:inlinelayout(false,fill);gap:0 5"> 
+	</scrollpane>
+	<button shortcuts="right" onAction="next"></button>
+	<button shortcuts="left" onAction="previous"></button>
+	<screenFirstMenu>
+		%MORE%
+		<menupopup>
+			<menuItem onAction="download">
+				%SPP_DOWNLOAD%
+			</menuItem>
+			<menuItem onAction="previous">
+				%PRVPHOTO%
+			</menuItem>
+			<menuItem onAction="next">
+				%NXTPHOTO%
+			</menuItem>
+			<menuItem onAction="back">
+				%BACK%
+			</menuItem>
+			<menuItem onAction="help">
+				%HELP%
+			</menuItem>
+		</menupopup>
+	</screenFirstMenu>
+	<screenSecondMenu onAction="exitConfirm">
+		%EXIT%
+	</screenSecondMenu>
+</screen>
